@@ -71,7 +71,7 @@ hi CtrlPStats ctermfg=darkgray ctermbg=none cterm=none
 hi Conditional ctermfg=darkblue ctermbg=none cterm=none
 hi Keyword ctermfg=darkblue ctermbg=none cterm=none
 hi Operator ctermfg=white ctermbg=none cterm=none
-hi Identifier ctermfg=lightgray ctermbg=none cterm=none
+hi Identifier ctermfg=white ctermbg=none cterm=none
 hi Function ctermfg=darkgreen ctermbg=none cterm=none
 hi Directory ctermfg=darkblue ctermbg=none cterm=none
 hi Comment ctermfg=darkgray ctermbg=none cterm=none
