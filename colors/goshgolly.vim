@@ -110,14 +110,14 @@ hi link SpecialComment Special
 hi link Debug Special
 
 " XML
-hi link xmlTag Keyword 
-hi link xmlTagName Conditional 
-hi link xmlEndTag Identifier 
+hi link xmlTag Normal
+hi link xmlTagName Normal
+hi link xmlEndTag Normal
 
 " HTML
-hi link htmlTag Keyword 
-hi link htmlTagName Conditional 
-hi link htmlEndTag Identifier 
+hi link htmlTag Normal 
+hi link htmlTagName Normal
+hi link htmlEndTag Normal 
 
 " JavaScript
 hi link jsBrackets Constant
@@ -151,10 +151,14 @@ hi link jadePlainChar Normal
 hi link jadeTagBlockChar Normal
 hi link jadeParen Noise
 hi link jadeTag Normal
-hi link htmlTagName Normal
+
+" Stylus
+hi link stylusImport Statement
+hi link stylusProperty Normal
+hi link stylusVariable Constant
+hi link stylusCssValues Constant
 
 " CSS
-hi link cssAdvancedProp Noise
 hi link cssBackgroundProp Normal
 hi link cssTableProp Normal
 hi link cssBorderProp Normal
@@ -166,8 +170,13 @@ hi link cssListProp Normal
 hi link cssVisualProp Normal
 hi link cssAdvancedProp Normal
 hi link cssCommonProp Normal
+hi link cssPositioningProp Normal
+hi link cssDimensionProp Normal
+hi link cssUIProp Normal
+hi link cssVendor Normal
+hi link cssAdvancedProp Noise
 hi link cssTagName Type
-
+hi link cssBraces Noise
 hi link cssColorVal Constant
 hi link cssCommonVal Constant
 hi link cssFontVal Constant
@@ -178,8 +187,3 @@ hi link cssBorderVal Constant
 hi link cssBackgroundVal Constant
 hi link cssFuncVal Constant
 hi link cssAdvancedVal Constant
-
-hi link stylusImport Statement
-hi link stylusProperty Constant
-hi link stylusVariable Constant
-hi link stylusCssValues Constant

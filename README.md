@@ -15,6 +15,14 @@ Installation
   2. Run `:PlugInstall`
   3. Run `:colo goshgolly`
 
+TODO
+----
+
+  - json
+  - python
+  - lua
+  - ruby
+
 Screenshots
 -----------
 
