@@ -21,7 +21,7 @@ hi StatusLineNC ctermfg=darkgray ctermbg=none cterm=none
 hi TabLineFill ctermfg=none ctermbg=none cterm=none
 hi TabLineSel ctermfg=white ctermbg=none cterm=bold
 hi TabNumSel ctermfg=white ctermbg=none cterm=none
-hi TabLine ctermfg=gray ctermbg=none cterm=none
+hi TabLine ctermfg=darkgray ctermbg=none cterm=none
 hi TabNum ctermfg=darkgray ctermbg=none cterm=none
 
 hi Folded ctermfg=lightgray ctermbg=none cterm=none
@@ -122,6 +122,11 @@ hi link htmlEndTag Normal
 " JavaScript
 hi link jsBrackets Constant
 hi link jsBraces Constant
+
+" JSON
+hi link jsonBoolean Constant
+hi link jsonNumber Constant
+hi link jsonKeyword Normal
 
 " CoffeeScript
 hi link coffeeParen Noise
