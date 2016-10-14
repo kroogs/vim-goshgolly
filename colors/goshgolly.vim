@@ -13,7 +13,7 @@ hi NonText ctermfg=darkgray ctermbg=none cterm=none
 hi Cursor ctermfg=none ctermbg=none cterm=reverse
 hi CursorLine ctermfg=none ctermbg=none cterm=none
 hi CursorColumn ctermfg=none ctermbg=none cterm=none
-hi CursorLineNr ctermfg=white ctermbg=none cterm=none
+hi CursorLineNr ctermfg=white ctermbg=none cterm=bold
 hi LineNr ctermfg=darkgray ctermbg=none cterm=none
 hi VertSplit ctermfg=darkgray ctermbg=none cterm=none
 hi StatusLine ctermfg=white ctermbg=none cterm=bold
