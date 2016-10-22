@@ -1,4 +1,3 @@
-" CSS
 hi link cssBackgroundProp Normal
 hi link cssTableProp Normal
 hi link cssBorderProp Normal
