@@ -1,0 +1,9 @@
+hi CtrlPNoEntries ctermfg=darkgray ctermbg=none cterm=none
+hi CtrlPMatch ctermfg=white ctermbg=none cterm=none
+hi CtrlPLinePre ctermfg=darkgray ctermbg=none cterm=none
+hi CtrlPPrtBase ctermfg=darkgray ctermbg=none cterm=none
+hi CtrlPPrtText ctermfg=white ctermbg=none cterm=none
+hi CtrlPPrtCursor ctermfg=white ctermbg=none cterm=none
+hi CtrlPMode1 ctermfg=darkgray ctermbg=none cterm=none
+hi CtrlPMode2 ctermfg=darkgray ctermbg=none cterm=none
+hi CtrlPStats ctermfg=darkgray ctermbg=none cterm=none

@@ -3,7 +3,6 @@ if exists("syntax_on")
 endif
 hi clear
 
-set t_Co=16
 let colors_name="goshgolly"
 
 " Interface
@@ -43,29 +42,11 @@ hi Search ctermfg=yellow ctermbg=none cterm=none
 hi IncSearch ctermfg=none ctermbg=none cterm=reverse
 
 hi Error ctermfg=darkred ctermbg=none cterm=none
-
 hi Todo ctermfg=darkred ctermbg=none cterm=none
 
 hi DiffAdd ctermfg=darkgray ctermbg=darkblue cterm=none
 hi DiffChange ctermfg=darkgray ctermbg=darkred cterm=none
 hi DiffDelete ctermfg=darkgray ctermbg=darkyellow cterm=none
-
-" Plugins
-hi EasyMotionTarget ctermfg=white ctermbg=none cterm=bold 
-hi EasyMotionShade ctermfg=darkgray ctermbg=none 
-
-hi IndentGuidesOdd ctermfg=none ctermbg=none cterm=none
-hi IndentGuidesEven ctermfg=none ctermbg=black cterm=none
-
-hi CtrlPNoEntries ctermfg=darkgray ctermbg=none cterm=none
-hi CtrlPMatch ctermfg=white ctermbg=none cterm=none
-hi CtrlPLinePre ctermfg=darkgray ctermbg=none cterm=none
-hi CtrlPPrtBase ctermfg=darkgray ctermbg=none cterm=none
-hi CtrlPPrtText ctermfg=white ctermbg=none cterm=none
-hi CtrlPPrtCursor ctermfg=white ctermbg=none cterm=none
-hi CtrlPMode1 ctermfg=darkgray ctermbg=none cterm=none
-hi CtrlPMode2 ctermfg=darkgray ctermbg=none cterm=none
-hi CtrlPStats ctermfg=darkgray ctermbg=none cterm=none
 
 " Language Syntax
 hi Conditional ctermfg=darkblue ctermbg=none cterm=none
@@ -108,87 +89,3 @@ hi link Tag Special
 hi link SpecialChar Special
 hi link SpecialComment Special
 hi link Debug Special
-
-" XML
-hi link xmlTag Normal
-hi link xmlTagName Normal
-hi link xmlEndTag Normal
-
-" HTML
-hi link htmlTag Normal 
-hi link htmlTagName Normal
-hi link htmlEndTag Normal 
-
-" JavaScript
-hi link jsBrackets Constant
-hi link jsBraces Constant
-
-" JSON
-hi link jsonBoolean Constant
-hi link jsonNumber Constant
-hi link jsonKeyword Normal
-
-" CoffeeScript
-hi link coffeeParen Noise
-hi link coffeeBracket Constant
-hi link coffeeCurlie Constant
-hi link coffeeDotAccess Constant
-" hi link coffeeMethod Function
-hi link coffeeArrow Function
-hi link coffeeSpecialOp Noise
-
-" TypeScript
-hi link typescriptBrackets Constant
-hi link typescriptCurleys Noise
-hi link typescriptParens Noise
-hi link typescriptEndColons Noise
-hi link typescriptStorageClass StorageClass
-hi link typescriptReserved Statement
-
-" Go
-hi link goBrace Noise
-hi link goParen Noise
-hi link goComma Noise
-hi link goDeclaration StorageClass
-
-" Jade
-hi link jadePlainChar Normal
-hi link jadeTagBlockChar Normal
-hi link jadeParen Noise
-hi link jadeTag Normal
-
-" Stylus
-hi link stylusImport Statement
-hi link stylusProperty Normal
-hi link stylusVariable Constant
-hi link stylusCssValues Constant
-
-" CSS
-hi link cssBackgroundProp Normal
-hi link cssTableProp Normal
-hi link cssBorderProp Normal
-hi link cssFontProp Normal
-hi link cssColorProp Normal
-hi link cssBoxProp Normal
-hi link cssTextProp Normal
-hi link cssListProp Normal
-hi link cssVisualProp Normal
-hi link cssAdvancedProp Normal
-hi link cssCommonProp Normal
-hi link cssPositioningProp Normal
-hi link cssDimensionProp Normal
-hi link cssUIProp Normal
-hi link cssVendor Normal
-hi link cssAdvancedProp Noise
-hi link cssTagName Type
-hi link cssBraces Noise
-hi link cssColorVal Constant
-hi link cssCommonVal Constant
-hi link cssFontVal Constant
-hi link cssListVal Constant
-hi link cssTextVal Constant
-hi link cssVisualVal Constant
-hi link cssBorderVal Constant
-hi link cssBackgroundVal Constant
-hi link cssFuncVal Constant
-hi link cssAdvancedVal Constant
