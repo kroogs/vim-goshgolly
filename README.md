@@ -6,7 +6,7 @@ Grayscale and neon-pastel 16-color palette and syntax highlighting for vim.
 Requirements
 ------------
 
-- [Plug](https://github.com/junegunn/vim-plug) or [Vundle](https://github.com/gmarik/vundle) or [Pathogen](https://github.com/tpope/vim-pathogen)
+- [Plug](https://github.com/junegunn/vim-plug)
 
 Installation
 ------------
@@ -17,6 +17,9 @@ Installation
 
 TODO
 ----
+
+In addition to further homogenizing the palette and cleaning up some
+syntax files, I want to better support these languages:
 
   - json
   - python
