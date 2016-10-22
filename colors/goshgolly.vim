@@ -39,8 +39,8 @@ hi ModeMsg ctermfg=darkgray ctermbg=none cterm=none
 hi MatchParen ctermfg=darkred ctermbg=none cterm=none
 hi Pmenu ctermfg=darkgray ctermbg=none cterm=none
 hi PmenuSel ctermfg=white ctermbg=none cterm=bold
-hi Search ctermfg=none ctermbg=none cterm=reverse
-hi IncSearch ctermfg=none ctermbg=none cterm=reverse 
+hi Search ctermfg=yellow ctermbg=none cterm=none
+hi IncSearch ctermfg=none ctermbg=none cterm=reverse
 
 hi Error ctermfg=darkred ctermbg=none cterm=none
 
