@@ -18,13 +18,12 @@ Installation
 TODO
 ----
 
-In addition to further homogenizing the palette and cleaning up some
-syntax files, I want to better support these languages:
-
-  - json
-  - python
-  - lua
-  - ruby
+  - Highlight operators uniquely
+  - Fix attribute/value in XML/HTML
+  - Fix noise in XML/HTML
+  - Fix noise in CSS
+  - Fix CoffeeScript (it's all borked)
+  - Better support for JSON, Python, Lua, and Ruby
 
 Screenshots
 -----------

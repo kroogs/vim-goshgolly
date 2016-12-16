@@ -12,7 +12,7 @@ hi NonText ctermfg=darkgray ctermbg=none cterm=none
 hi Cursor ctermfg=none ctermbg=none cterm=reverse
 hi CursorLine ctermfg=none ctermbg=none cterm=none
 hi CursorColumn ctermfg=none ctermbg=none cterm=none
-hi CursorLineNr ctermfg=white ctermbg=none cterm=bold
+hi CursorLineNr ctermfg=white ctermbg=none cterm=none
 hi LineNr ctermfg=darkgray ctermbg=none cterm=none
 hi VertSplit ctermfg=darkgray ctermbg=none cterm=none
 hi StatusLine ctermfg=white ctermbg=none cterm=bold
@@ -48,13 +48,14 @@ hi DiffAdd ctermfg=darkgray ctermbg=darkblue cterm=none
 hi DiffChange ctermfg=darkgray ctermbg=darkred cterm=none
 hi DiffDelete ctermfg=darkgray ctermbg=darkyellow cterm=none
 
+hi Directory ctermfg=white ctermbg=none cterm=none
+
 " Language Syntax
 hi Conditional ctermfg=darkblue ctermbg=none cterm=none
 hi Keyword ctermfg=darkblue ctermbg=none cterm=none
 hi Operator ctermfg=white ctermbg=none cterm=none
 hi Identifier ctermfg=white ctermbg=none cterm=none
 hi Function ctermfg=darkgreen ctermbg=none cterm=none
-hi Directory ctermfg=darkblue ctermbg=none cterm=none
 hi Comment ctermfg=darkgray ctermbg=none cterm=none
 hi SpecialKey ctermfg=none ctermbg=none cterm=none
 hi SignColumn ctermfg=none ctermbg=none cterm=none

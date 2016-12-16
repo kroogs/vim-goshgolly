@@ -1,2 +1,2 @@
-hi link jsBrackets Constant
-hi link jsBraces Constant
+hi link jsBrackets Noise
+hi link jsBraces Noise
