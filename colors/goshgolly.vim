@@ -40,25 +40,27 @@ hi Pmenu ctermfg=darkgray ctermbg=none cterm=none
 hi PmenuSel ctermfg=white ctermbg=none cterm=bold
 hi Search ctermfg=yellow ctermbg=none cterm=none
 hi IncSearch ctermfg=none ctermbg=none cterm=reverse
+hi SignColumn ctermfg=none ctermbg=none cterm=none
+hi SpecialKey ctermfg=none ctermbg=none cterm=none
 
 hi Error ctermfg=darkred ctermbg=none cterm=none
 hi Todo ctermfg=darkred ctermbg=none cterm=none
 
-hi DiffAdd ctermfg=darkgray ctermbg=darkblue cterm=none
-hi DiffChange ctermfg=darkgray ctermbg=darkred cterm=none
-hi DiffDelete ctermfg=darkgray ctermbg=darkyellow cterm=none
+hi DiffAdd ctermfg=darkblue ctermbg=none cterm=none
+hi DiffChange ctermfg=darkred ctermbg=none cterm=none
+hi DiffDelete ctermfg=yellow ctermbg=none cterm=none
+hi DiffText ctermfg=yellow ctermbg=none cterm=none
 
 hi Directory ctermfg=white ctermbg=none cterm=none
 
 " Language Syntax
 hi Conditional ctermfg=darkblue ctermbg=none cterm=none
+hi Loop ctermfg=darkblue ctermbg=none cterm=none
 hi Keyword ctermfg=darkblue ctermbg=none cterm=none
 hi Operator ctermfg=white ctermbg=none cterm=none
 hi Identifier ctermfg=white ctermbg=none cterm=none
 hi Function ctermfg=darkgreen ctermbg=none cterm=none
 hi Comment ctermfg=darkgray ctermbg=none cterm=none
-hi SpecialKey ctermfg=none ctermbg=none cterm=none
-hi SignColumn ctermfg=none ctermbg=none cterm=none
 
 hi Noise ctermfg=darkgray
 hi link Delimiter Noise
@@ -90,3 +92,7 @@ hi link Tag Special
 hi link SpecialChar Special
 hi link SpecialComment Special
 hi link Debug Special
+
+hi NeomakeErrorSign ctermfg=darkred
+hi NeomakeWarningSign ctermfg=yellow
+hi NeomakeMessageSign ctermfg=white
