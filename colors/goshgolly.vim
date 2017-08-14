@@ -1,98 +1,100 @@
+hi clear
 if exists("syntax_on")
  syntax reset
 endif
-hi clear
 
-let colors_name="goshgolly"
+let g:colors_name="goshgolly"
 
-" Interface
-hi Normal ctermfg=lightgray ctermbg=none cterm=none
-hi NonText ctermfg=darkgray ctermbg=none cterm=none
+" Good colors to investigate
+" #66d9ef light blue
+" #9ce12e light green
+" #00b9b9 cyan
 
-hi Cursor ctermfg=none ctermbg=none cterm=reverse
-hi CursorLine ctermfg=none ctermbg=none cterm=none
-hi CursorColumn ctermfg=none ctermbg=none cterm=none
-hi CursorLineNr ctermfg=white ctermbg=none cterm=none
-hi LineNr ctermfg=darkgray ctermbg=none cterm=none
-hi VertSplit ctermfg=darkgray ctermbg=none cterm=none
-hi StatusLine ctermfg=white ctermbg=none cterm=bold
-hi StatusLineNC ctermfg=darkgray ctermbg=none cterm=none
-hi TabLineFill ctermfg=none ctermbg=none cterm=none
-hi TabLineSel ctermfg=white ctermbg=none cterm=bold
-hi TabNumSel ctermfg=white ctermbg=none cterm=none
-hi TabLine ctermfg=darkgray ctermbg=none cterm=none
-hi TabNum ctermfg=darkgray ctermbg=none cterm=none
+hi Normal      guifg=#afafaf guibg=#131313 gui=none ctermfg=lightgray ctermbg=none cterm=none
+hi Function    guifg=#9ce12e guibg=none    gui=none ctermfg=darkgreen ctermbg=none cterm=none
+hi Keyword     guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
+hi Conditional guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
 
-hi Folded ctermfg=lightgray ctermbg=none cterm=none
-hi Title ctermfg=lightgray ctermbg=none cterm=none
-hi Visual ctermfg=none ctermbg=none cterm=reverse
+hi Constant    guifg=#f94d94 guibg=none    gui=none ctermfg=darkmagenta     ctermbg=none cterm=none
+hi Boolean     guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi String      guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi Character   guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi Number      guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi Float       guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi Operator    guifg=#ffffff guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
+hi Identifier  guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
 
-hi WildMenu ctermfg=white ctermbg=none cterm=none
-hi PmenuSbar ctermfg=darkgray ctermbg=none cterm=none
-
-hi ErrorMsg ctermfg=darkred ctermbg=none cterm=none
-hi WarningMsg ctermfg=darkred ctermbg=none cterm=none
-hi LongLineWarning ctermfg=none ctermbg=none cterm=underline
-
-hi ModeMsg ctermfg=darkgray ctermbg=none cterm=none
-hi MatchParen ctermfg=darkred ctermbg=none cterm=none
-hi Pmenu ctermfg=darkgray ctermbg=none cterm=none
-hi PmenuSel ctermfg=white ctermbg=none cterm=bold
-hi Search ctermfg=yellow ctermbg=none cterm=none
-hi IncSearch ctermfg=none ctermbg=none cterm=reverse
-hi SignColumn ctermfg=none ctermbg=none cterm=none
-hi SpecialKey ctermfg=none ctermbg=none cterm=none
-
-hi Error ctermfg=darkred ctermbg=none cterm=none
-hi Todo ctermfg=darkred ctermbg=none cterm=none
-
-hi DiffAdd ctermfg=darkblue ctermbg=none cterm=none
-hi DiffChange ctermfg=darkred ctermbg=none cterm=none
-hi DiffDelete ctermfg=yellow ctermbg=none cterm=none
-hi DiffText ctermfg=yellow ctermbg=none cterm=none
-
-hi Directory ctermfg=white ctermbg=none cterm=none
-
-" Language Syntax
-hi Conditional ctermfg=darkblue ctermbg=none cterm=none
-hi Loop ctermfg=darkblue ctermbg=none cterm=none
-hi Keyword ctermfg=darkblue ctermbg=none cterm=none
-hi Operator ctermfg=white ctermbg=none cterm=none
-hi Identifier ctermfg=white ctermbg=none cterm=none
-hi Function ctermfg=darkgreen ctermbg=none cterm=none
-hi Comment ctermfg=darkgray ctermbg=none cterm=none
-
-hi Noise ctermfg=darkgray
-hi link Delimiter Noise
-
-hi Statement ctermfg=darkmagenta ctermbg=none cterm=none
-hi link Repeat Statement
-hi link Label Statement
+hi Statement   guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
+hi link Repeat    Statement
+hi link Label     Statement
 hi link Exception Statement
 
-hi Constant ctermfg=white ctermbg=none cterm=none
-hi link Character Constant
-hi link Boolean Constant
-hi link String Constant
-hi link Number Constant
+hi Type guifg=#9ce12e guibg=none gui=none ctermfg=darkgreen ctermbg=none cterm=none
+hi link StorageClass Type
+hi link Structure    Type
+hi link Typedef      Type
 
-hi PreProc ctermfg=darkblue ctermbg=none cterm=none
-hi link Include PreProc
-hi link Define PreProc
-hi link Macro PreProc
+hi Special guifg=#a378fe guibg=none gui=none ctermfg=darkmagenta ctermbg=none cterm=none
+hi link Tag            Special
+hi link SpecialChar    Special
+hi link Debug          Special
+
+hi PreProc guifg=#679aff ctermfg=darkblue
+hi link Include   PreProc
+hi link Define    PreProc
+hi link Macro     PreProc
 hi link PreCondit PreProc
 
-hi Type ctermfg=darkgreen ctermbg=none cterm=none
-hi link StorageClass Type
-hi link Structure Type
-hi link Typedef Type
+hi Comment guifg=#535353 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi link SpecialComment Comment
 
-hi Special ctermfg=darkmagenta ctermbg=none cterm=none
-hi link Tag Special
-hi link SpecialChar Special
-hi link SpecialComment Special
-hi link Debug Special
+hi EndOfBuffer guifg=#131313 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi NonText guifg=#535353 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi Noise guifg=#333333 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi link Delimiter Noise
+hi link Ignore    Noise
 
-hi NeomakeErrorSign ctermfg=darkred
-hi NeomakeWarningSign ctermfg=yellow
-hi NeomakeMessageSign ctermfg=white
+hi Error      guifg=#e92620 guibg=none gui=none ctermfg=darkred ctermbg=none cterm=none
+hi ErrorMsg   guifg=#e92620 guibg=none gui=none ctermfg=darkred ctermbg=none cterm=none
+hi WarningMsg guifg=none    guibg=none gui=none ctermfg=none    ctermbg=none cterm=none
+hi Todo       guifg=#e92620 guibg=none gui=none ctermfg=darkred ctermbg=none cterm=none
+
+hi LineNr       guifg=#242424 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi VertSplit    guifg=#131313 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi TabLine      guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi TabNum       guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi TabLineFill  guifg=none    guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi TabLineSel   guifg=#ffffff guibg=none    gui=bold    ctermfg=white  ctermbg=none cterm=bold
+hi TabNumSel    guifg=#ffffff guibg=none    gui=none    ctermfg=white  ctermbg=none cterm=none
+hi ModeMsg      guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi Directory    guifg=#ffffff guibg=none    gui=none    ctermfg=white  ctermbg=none cterm=none
+hi Cursor       guifg=none    guibg=none    gui=reverse ctermfg=none   ctermbg=none cterm=reverse
+hi CursorColumn guifg=none    guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi CursorLine   guifg=none    guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi CursorLineNr guifg=#535353 guibg=none    gui=none    ctermfg=white  ctermbg=none cterm=none
+hi StatusLine   guifg=#ffffff guibg=none    gui=bold    ctermfg=white  ctermbg=none cterm=bold
+hi StatusLineNC guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi WildMenu     guifg=#ffffff guibg=none    gui=none    ctermfg=white  ctermbg=none cterm=none
+hi PmenuSel     guifg=#ffffff guibg=none    gui=bold    ctermfg=white  ctermbg=none cterm=bold
+hi PmenuSbar    guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi Pmenu        guifg=#535353 guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+hi Search       guifg=#fd971f guibg=none    gui=none    ctermfg=yellow ctermbg=none cterm=none
+hi IncSearch    guifg=#000000 guibg=#fd971f gui=none    ctermbg=none   ctermbg=none cterm=reverse
+hi SignColumn   guifg=none guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
+
+hi Folded guifg=#a1a1a1 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
+hi Title  guifg=#a1a1a1 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
+hi Visual guifg=none    guibg=none gui=reverse ctermfg=none      ctermbg=none cterm=reverse
+
+hi LongLineWarning guifg=none guibg=none gui=underline ctermfg=none ctermbg=none cterm=underline
+
+hi MatchParen guifg=#fd971f guibg=none gui=none ctermfg=darkred ctermbg=none cterm=none
+" hi SpecialKey ctermfg=none     ctermbg=none cterm=none
+
+hi DiffAdd    guifg=#679aff ctermfg=darkblue
+hi DiffChange guifg=#e93f3a ctermfg=darkred
+hi DiffDelete guifg=#ffe61d ctermfg=yellow
+hi DiffText   guifg=#ffe61d ctermfg=yellow
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
+hi link diffSubname Normal
