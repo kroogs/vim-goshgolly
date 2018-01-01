@@ -10,12 +10,13 @@ let g:colors_name="goshgolly"
 " #9ce12e light green
 " #00b9b9 cyan
 
-hi Normal      guifg=#afafaf guibg=#131313 gui=none ctermfg=lightgray ctermbg=none cterm=none
-hi Function    guifg=#9ce12e guibg=none    gui=none ctermfg=darkgreen ctermbg=none cterm=none
+hi Normal      guifg=#afafaf guibg=#151515 gui=none ctermfg=lightgray ctermbg=none cterm=none
+hi Function    guifg=none guibg=none    gui=none ctermfg=darkgreen ctermbg=none cterm=none
 hi Keyword     guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
 hi Conditional guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
 
-hi Constant    guifg=#f94d94 guibg=none    gui=none ctermfg=darkmagenta     ctermbg=none cterm=none
+" hi Constant    guifg=#f94d94 guibg=none    gui=none ctermfg=darkmagenta     ctermbg=none cterm=none
+hi Constant    guifg=#ffffff guibg=none    gui=none ctermfg=white     ctermbg=none cterm=none
 hi Boolean     guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
 hi String      guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
 hi Character   guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
@@ -24,10 +25,11 @@ hi Float       guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=no
 hi Operator    guifg=#ffffff guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
 hi Identifier  guifg=#f0f0f0 guibg=none    gui=none ctermfg=none      ctermbg=none cterm=none
 
-hi Statement   guifg=#679aff guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
+hi Statement   guifg=#f94d94 guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
 hi link Repeat    Statement
 hi link Label     Statement
-hi link Exception Statement
+
+hi Exception   guifg=#fd971f guibg=none    gui=none ctermfg=darkblue  ctermbg=none cterm=none
 
 hi Type guifg=#9ce12e guibg=none gui=none ctermfg=darkgreen ctermbg=none cterm=none
 hi link StorageClass Type
@@ -45,12 +47,12 @@ hi link Define    PreProc
 hi link Macro     PreProc
 hi link PreCondit PreProc
 
-hi Comment guifg=#535353 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi Comment guifg=#333333 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
 hi link SpecialComment Comment
 
 hi EndOfBuffer guifg=#131313 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
 hi NonText guifg=#535353 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
-hi Noise guifg=#333333 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
+hi Noise guifg=#464646 guibg=none gui=none ctermfg=darkgray ctermbg=none cterm=none
 hi link Delimiter Noise
 hi link Ignore    Noise
 
@@ -82,7 +84,8 @@ hi Search       guifg=#fd971f guibg=none    gui=none    ctermfg=yellow ctermbg=n
 hi IncSearch    guifg=#000000 guibg=#fd971f gui=none    ctermbg=none   ctermbg=none cterm=reverse
 hi SignColumn   guifg=none guibg=none    gui=none    ctermfg=none   ctermbg=none cterm=none
 
-hi Folded guifg=#a1a1a1 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
+hi Folded guifg=#535353 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
+hi FoldColumn guifg=#535335 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
 hi Title  guifg=#a1a1a1 guibg=none gui=none    ctermfg=lightgray ctermbg=none cterm=none
 hi Visual guifg=none    guibg=none gui=reverse ctermfg=none      ctermbg=none cterm=reverse
 
@@ -91,10 +94,10 @@ hi LongLineWarning guifg=none guibg=none gui=underline ctermfg=none ctermbg=none
 hi MatchParen guifg=#fd971f guibg=none gui=none ctermfg=darkred ctermbg=none cterm=none
 " hi SpecialKey ctermfg=none     ctermbg=none cterm=none
 
-hi DiffAdd    guifg=#679aff ctermfg=darkblue
-hi DiffChange guifg=#e93f3a ctermfg=darkred
-hi DiffDelete guifg=#ffe61d ctermfg=yellow
-hi DiffText   guifg=#ffe61d ctermfg=yellow
+hi DiffAdd    guifg=#679aff guibg=#212121 ctermfg=darkblue ctermbg=none
+hi DiffChange guifg=none guibg=#212121 ctermfg=darkred ctermbg=none
+hi DiffDelete guifg=#ffe61d guibg=#212121 ctermfg=yellow ctermbg=none
+hi DiffText   guifg=#ffe61d guibg=#212121 ctermfg=yellow ctermbg=none
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link diffSubname Normal
