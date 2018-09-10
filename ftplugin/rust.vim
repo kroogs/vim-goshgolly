@@ -1,1 +1,1 @@
-hi link rustFuncCall Normal
+hi link rustNoise Noise
