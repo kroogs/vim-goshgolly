@@ -5,7 +5,7 @@ endif
 
 let g:colors_name="goshgolly"
 
-hi Normal      guifg=#afafaf guibg=#151515 gui=none
+hi Normal      guifg=#afafaf guibg=none gui=none
 hi Function    guifg=none guibg=none    gui=none
 hi Keyword     guifg=#679aff guibg=none    gui=none
 hi Conditional guifg=#679aff guibg=none    gui=none

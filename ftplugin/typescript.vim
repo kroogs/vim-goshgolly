@@ -1,11 +1,19 @@
-hi link foldBraces Noise
+hi link typescriptImport PreProc
+hi link typescriptPredefinedType Type
+hi link typescriptObjectLabel Normal
+hi link typescriptVariable Type
+hi link typescriptGlobal Constant
+hi link typescriptFuncComma Normal
+hi link typescriptExport PreProc
 
-hi link typescriptBrackets Constant
+hi link typescriptArrowFuncArg Normal
+hi link typescriptCall Normal
+
+hi link typescriptThis Special
 hi link typescriptBraces Noise
-hi link typescriptCurleys Noise
+hi link typescriptDotNotation Noise
 hi link typescriptParens Noise
 hi link typescriptEndColons Noise
-hi link typescriptStorageClass StorageClass
 hi link typescriptReserved Keyword
 
 hi link tsxTag Noise
