@@ -94,3 +94,9 @@ hi DiffText   guifg=#ffe61d guibg=#212121
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link diffSubname Normal
+
+hi link ALEErrorSign Error
+hi link ALEWarningSign Exception
+hi link ALEInfoSign Constant
+hi link ALEStyleErrorSign Constant
+hi link ALEStyleWarningSign Constant
