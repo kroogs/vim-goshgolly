@@ -22,3 +22,5 @@ hi link tsxCloseTag Noise
 hi link tsxCloseString Noise
 hi link tsxAttrib Normal
 hi link tsxEqual Operator
+
+hi link jsxBraces Noise
