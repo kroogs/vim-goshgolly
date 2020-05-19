@@ -41,12 +41,12 @@ hi link Define    PreProc
 hi link Macro     PreProc
 hi link PreCondit PreProc
 
-hi Comment guifg=#333333 guibg=none gui=none
+hi Comment guifg=#444444 guibg=none gui=none
 hi link SpecialComment Comment
 
 hi EndOfBuffer guifg=#131313 guibg=none gui=none
 hi NonText guifg=#535353 guibg=none gui=none
-hi Noise guifg=#464646 guibg=none gui=none
+hi Noise guifg=#444444 guibg=none gui=none
 hi link Delimiter Noise
 hi link Ignore    Noise
 
