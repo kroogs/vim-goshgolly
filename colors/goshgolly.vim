@@ -7,8 +7,8 @@ let g:colors_name="goshgolly"
 
 hi Normal      guifg=#afafaf guibg=none gui=none
 hi Function    guifg=none guibg=none    gui=none
-hi Keyword     guifg=#679aff guibg=none    gui=none
-hi Conditional guifg=#679aff guibg=none    gui=none
+hi Keyword     guifg=#679aff guibg=none    gui=italic
+hi Conditional guifg=#679aff guibg=none    gui=italic
 
 hi Constant    guifg=#ffffff guibg=none    gui=none
 hi Boolean     guifg=#f0f0f0 guibg=none    gui=none
@@ -19,29 +19,29 @@ hi Float       guifg=#f0f0f0 guibg=none    gui=none
 hi Operator    guifg=#ffffff guibg=none    gui=none
 hi Identifier  guifg=#f0f0f0 guibg=none    gui=none
 
-hi Statement   guifg=#f94d94 guibg=none    gui=none
+hi Statement   guifg=#f94d94 guibg=none    gui=italic
 hi link Repeat    Statement
 hi link Label     Statement
 
 hi Exception   guifg=#fd971f guibg=none    gui=none
 
-hi Type guifg=#9ce12e guibg=none gui=none
+hi Type guifg=#9ce12e guibg=none gui=italic
 hi link StorageClass Type
 hi link Structure    Type
 hi link Typedef      Type
 
-hi Special guifg=#a378fe guibg=none gui=none
+hi Special guifg=#a378fe guibg=none gui=italic
 hi link Tag            Special
 hi link SpecialChar    Special
 hi link Debug          Special
 
-hi PreProc guifg=#679aff
+hi PreProc guifg=#679aff gui=italic
 hi link Include   PreProc
 hi link Define    PreProc
 hi link Macro     PreProc
 hi link PreCondit PreProc
 
-hi Comment guifg=#444444 guibg=none gui=none
+hi Comment guifg=#444444 guibg=none gui=italic
 hi link SpecialComment Comment
 
 hi EndOfBuffer guifg=#131313 guibg=none gui=none
@@ -66,7 +66,7 @@ hi ModeMsg      guifg=#535353 guibg=none    gui=none
 hi Directory    guifg=#ffffff guibg=none    gui=none   
 hi Cursor       guifg=none    guibg=none    gui=reverse
 hi CursorColumn guifg=none    guibg=none    gui=none   
-hi CursorLine   guifg=none    guibg=none    gui=none   
+hi CursorLine   guifg=none    guibg=none    gui=none
 hi CursorLineNr guifg=#535353 guibg=none    gui=none   
 hi StatusLine   guifg=#ffffff guibg=none    gui=bold   
 hi StatusLineNC guifg=#535353 guibg=none    gui=none   
@@ -100,3 +100,5 @@ hi link ALEWarningSign Exception
 hi link ALEInfoSign Constant
 hi link ALEStyleErrorSign Constant
 hi link ALEStyleWarningSign Constant
+
+hi illuminatedWord cterm=reverse gui=reverse

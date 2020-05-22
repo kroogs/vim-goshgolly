@@ -14,13 +14,14 @@ hi link typescriptBraces Noise
 hi link typescriptDotNotation Noise
 hi link typescriptParens Noise
 hi link typescriptEndColons Noise
-hi link typescriptReserved Keyword
+hi link typescriptReserved Special
 
-hi link tsxTag Noise
-hi link tsxTagName Constant
-hi link tsxCloseTag Noise
-hi link tsxCloseString Noise
-hi link tsxAttrib Normal
-hi link tsxEqual Operator
+hi link jsxTag Noise
+hi link jsxComponentName Constant
+hi link jsxTagName Constant
+hi link jsxCloseTag Noise
+hi link jsxCloseString Noise
+hi link jsxAttrib Normal
+hi link jsxEqual Operator
 
 hi link jsxBraces Noise
